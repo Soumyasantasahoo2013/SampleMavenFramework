@@ -1,5 +1,6 @@
 package com.crm.vtiger.ProductTest;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SearchProductTest {
@@ -8,6 +9,7 @@ public class SearchProductTest {
 	public void searchProductWithNameTest()
 	{
 		System.out.println("execute searchProduct with name");
+		Assert.fail();
 	}
 	
 	@Test(groups="regressionTest")

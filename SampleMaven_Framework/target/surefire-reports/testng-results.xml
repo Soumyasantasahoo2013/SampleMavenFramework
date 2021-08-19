@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-09T11:54:37Z" name="Suite" finished-at="2021-07-09T11:54:37Z" duration-ms="98">
+  <suite started-at="2021-08-12T10:18:43Z" name="Suite" finished-at="2021-08-12T10:18:43Z" duration-ms="119">
     <groups>
       <group name="smokeTest">
-        <method signature="CreateProductTest.createProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.CreateProductTest@34f5090e]" name="createProductWithNameTest" class="com.crm.vtiger.ProductTest.CreateProductTest"/>
-        <method signature="SearchProductTest.searchProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.SearchProductTest@31e5415e]" name="searchProductWithNameTest" class="com.crm.vtiger.ProductTest.SearchProductTest"/>
+        <method signature="CreateProductTest.createProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.CreateProductTest@31e5415e]" name="createProductWithNameTest" class="com.crm.vtiger.ProductTest.CreateProductTest"/>
+        <method signature="SearchProductTest.searchProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.SearchProductTest@a2431d0]" name="searchProductWithNameTest" class="com.crm.vtiger.ProductTest.SearchProductTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2021-07-09T11:54:37Z" name="Test" finished-at="2021-07-09T11:54:37Z" duration-ms="98">
-      <class name="com.crm.vtiger.ProductTest.SearchProductTest">
-        <test-method signature="searchProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.SearchProductTest@31e5415e]" started-at="2021-07-09T11:54:37Z" name="searchProductWithNameTest" finished-at="2021-07-09T11:54:37Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductWithNameTest -->
-      </class> <!-- com.crm.vtiger.ProductTest.SearchProductTest -->
+    <test started-at="2021-08-12T10:18:43Z" name="Test" finished-at="2021-08-12T10:18:43Z" duration-ms="119">
       <class name="com.crm.vtiger.ProductTest.CreateProductTest">
-        <test-method signature="createProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.CreateProductTest@34f5090e]" started-at="2021-07-09T11:54:37Z" name="createProductWithNameTest" finished-at="2021-07-09T11:54:37Z" duration-ms="17" status="PASS">
+        <test-method signature="createProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.CreateProductTest@31e5415e]" started-at="2021-08-12T10:18:43Z" name="createProductWithNameTest" finished-at="2021-08-12T10:18:43Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProductWithNameTest -->
       </class> <!-- com.crm.vtiger.ProductTest.CreateProductTest -->
+      <class name="com.crm.vtiger.ProductTest.SearchProductTest">
+        <test-method signature="searchProductWithNameTest()[pri:0, instance:com.crm.vtiger.ProductTest.SearchProductTest@a2431d0]" started-at="2021-08-12T10:18:43Z" name="searchProductWithNameTest" finished-at="2021-08-12T10:18:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithNameTest -->
+      </class> <!-- com.crm.vtiger.ProductTest.SearchProductTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
